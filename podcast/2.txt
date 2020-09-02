@@ -1,0 +1,381 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img.logo{
+  width: 24px; height: 24px;
+  margin-left: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  
+  
+}
+
+body{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%; height: 44px;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  
+  
+}
+
+.container-header-mobile{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section-desktop{
+  display: inline-block;
+  font-size: 16px;
+  text-align: right;
+}
+
+.menu{
+  display: none;
+}
+
+h1{
+  color: #060a24;
+  margin-top: 29px;
+  margin-left: 16px;
+  font-size: 36px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+}
+
+.world{
+  color: #060a24;
+  text-decoration: line-through;
+}
+
+
+.resumen{
+  font-size: 14px;
+  color:#060a24;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  line-height: 22px;
+  
+  
+}
+
+.buttonConoceMas {
+  text-decoration:none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color:#060a24;
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:96px;
+  padding-right:96px;
+  background-color:#00f3bb;
+  margin-left: 16px;
+  margin-top: 36px;
+  width: 288px; height: 48px;
+  margin-bottom: 24px;
+  
+  
+}
+
+.buttonConoceMas:hover {
+  background-image: linear-gradient(255deg, #00FE 0%, #00F0B8 100%);
+  transition: 0.5s;
+  color: white;
+  cursor:pointer;
+}
+
+.background{
+  margin-top: 24px;
+  position: absolute;
+  width: 100%; height: 1203px;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  transform: skew(0deg,-5deg);
+}
+
+.inclinacion {
+  transform: skew(0deg,5deg);
+}
+
+h2{
+  color: white;
+  margin-top: 64px;
+  margin-left: 16px;
+  font-size: 36px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+}
+
+
+.first-chapter{
+  margin-top: 21px;
+  margin-left: 11px;
+  margin-right: 11px;
+  width: 298px;
+  
+}
+
+.resto-chapters{
+  margin-left: 11px;
+  width: 298px;
+}
+
+img.phone{
+  width: 100%;
+  height: 519px;
+  margin-top: 48px;
+  
+}
+
+h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  margin-left: 16px;
+  font-weight: normal;
+  width: 288px; height: 84px;
+}
+
+.text{
+  font-size: 14px;
+  color:#060a24;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  line-height: 22px;
+  
+}
+
+.invitados{
+  margin-top: 54px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  margin-left: 16px;
+  font-weight: normal;
+}
+
+.grase{
+  width: 100%;
+  margin-top: 14px;
+  display: block;
+}
+
+.resto-invitados{
+  width: 100%;
+  height: 243px;
+  display: block;
+  
+}
+
+.temas{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  margin-left: 16px;
+  font-weight: normal;
+  margin-top: 48px;
+}
+
+img.icon1{
+  width: 104px;
+  height: 104px;
+  margin-left: 108px;
+  margin-top: 37px;
+}
+
+.trabajo-remoto{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 13px;
+}
+
+img.icon2{
+  width: 104px;
+  height: 104px;
+  margin-left: 108px;
+  margin-top: 49px;
+}
+
+.repasando-programacion{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 13px;
+}
+
+img.icon3{
+  width: 104px;
+  height: 104px;
+  margin-left: 108px;
+  margin-top: 52px;
+}
+
+.bases-del-codigo{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 13px;
+  
+}
+
+img.icon4{
+  width: 104px;
+  height: 104px;
+  margin-left: 108px;
+  margin-top: 64px;
+}
+
+.seguridad-informatica{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 13px;
+  margin-bottom: 74px;
+  
+}
+
+.asymmetric {
+  position: relative;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+
+.asymmetric::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  transform-origin: top left;
+  transform: skewY(-5deg);
+  z-index: -10;
+}
+
+.asymmetric::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  transform-origin: bottom left;
+  z-index: -10;
+  
+}
+
+
+section {
+  padding: 50px 0;
+}
+
+
+
+h4 {
+  padding-bottom: 36px;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+  padding-bottom: 36px;
+  
+}
+
+.buttonEpisodios{
+  text-decoration:none;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color:#060a24;
+  padding-top:13px;
+  background-color:#00f3bb;
+  margin-left: 16px;
+  width: 288px; height: 48px;
+  margin-bottom: 24px;
+  white-space: nowrap
+}
+
+.buttonEpisodios:hover {
+  background-image: linear-gradient(255deg, #00FE 0%, #00F0B8 100%);
+  transition: 0.5s;
+  color: white;
+  cursor:pointer;
+}
+
+.Copyright{
+  margin-top: 24px;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.icono-spotify{
+  margin-left: 45px;
+  margin-top: 16px;
+}
+
+.resto-icons{ 
+  margin-left: 38px;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 1224px){
+  
+  .contenedor{
+    width: 100%;
+  }
+  
+  img.logo{
+    margin-left: 100px;
+    margin-top: 22px;
+    width: 36px; height: 36px;
+  }
+  
+  h1{
+    color: #060a24;
+    margin-top: 120px;
+    margin-left: 200px;
+    font-size: 64px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+  
+}
+
+.buttonConoceMas {
+  text-decoration:none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color:#060a24;
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:96px;
+  padding-right:96px;
+  background-color:#00f3bb;
+  margin-left: 200px;
+  margin-top: 56px;
+  width: 226px; height: 56px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+  .container-header-mobile{
+  display: none;  
+  }
+
+.container-header-desktop{
+  display: visible;
+}

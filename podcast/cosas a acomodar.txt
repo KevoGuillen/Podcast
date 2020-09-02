@@ -1,0 +1,4 @@
+-Textos y fuentes
+-imagenes e iconos en una sola clase
+-espacio entre boton conoce mas y episodios
+

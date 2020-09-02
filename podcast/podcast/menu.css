@@ -1,0 +1,12 @@
+#menu-bar{
+  display: none;
+}
+
+header label{
+  float: right;
+  width: 18px; height: 12px;
+  margin: 16px 19px;
+  cursor: pointer;
+  
+}
+

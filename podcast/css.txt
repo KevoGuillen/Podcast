@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img.logo{
+  width: 24px; height: 24px;
+  margin-left: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  
+  
+}
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  max-width: 320px;
+  margin: 0 auto;
+  
+}
+
+header{
+  width: 320px; height: 44px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  
+}
+
+.contenedor{
+  width: 100%;
+  margin: auto;
+  
+}
+
+.menu{
+  display: none;
+}
+
+h1{
+  color: #060a24;
+  display: inline-block;
+  margin-top: 73px;
+  margin-left: 16px;
+  font-size: 36px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 42px;
+  font-weight: normal;
+}
+
+.world{
+  color: #060a24;
+  text-decoration: line-through;
+}
+
+.resumen{
+  font-size: 14px;
+  color:#060a24;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: justify;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  line-height: 22px;
+  
+}
+
+.buttonConoceMas {
+  
+    text-decoration:none;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    color:#060a24;
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left:96px;
+    padding-right:96px;
+    background-color:#00f3bb;
+    margin-left: 16px;
+    margin-top: 36px;
+    width: 288px; height: 48px;
+    margin-bottom: 24px;
+    
+    
+  }
+
+  .buttonConoceMas:hover {
+    background-image: linear-gradient(255deg, #00FE 0%, #00F0B8 100%);
+    transition: 0.5s;
+    color: white;
+    cursor:pointer;
+  }
+  
+  section{
+    position: relative;
+    margin-top: 24px;
+  }
+
+
+  .background{
+    margin-top: 24px;
+    position: absolute;
+    width: 320px; height: 967.5px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skew(0deg,-5deg);
+  }
+
+  .inclinacion {
+      transform: skew(0deg,5deg);
+  }
+
+  h2{
+    color: white;
+    margin-top: 64px;
+    margin-left: 16px;
+    font-size: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+  }
+  
+  img.chap1{
+    margin-top: 21px;
+    margin-left: 11px;
+  }
+
+  img.chap2{
+    margin-top: 11px;
+    margin-left: 11px;
+  }
+
+  img.chap3{
+    margin-top: 11px;
+    margin-left: 11px;
+  }
+
+  img.phone{
+    width: 100%;
+    height: 519px;
+    margin-top: 48px;
+    
+  }
+
+h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  margin-left: 16px;
+  font-weight: normal;
+}
+
+  .text{
+    font-size: 14px;
+    color:#060a24;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: justify;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    line-height: 22px;
+    
+  }
+
+  .invitados{
+    margin-top: 54px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    margin-left: 16px;
+    font-weight: normal;
+  }
+  
+  img.grase{
+    width: 320px;
+    height: 243px;
+    margin-top: 14px;
+    display: block;
+  }
+
+  img.katie{
+    width: 320px;
+    height: 243px;
+    display: block;
+    
+  }
+
+  img.margaret{
+    width: 320px;
+    height: 243px;
+    display: block;
+  }
+
+  img.univac{
+    width: 320px;
+    height: 243px;
+    display: block;
+    
+  }
+
+  img.eniac{
+    width: 320px;
+    height: 243px;
+    display: block;
+  }
+
+  img.susan{
+    width: 320px;
+    height: 243px;
+    display: block;
+  }
+
+  .temas{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    margin-left: 16px;
+    font-weight: normal;
+    margin-top: 48px;
+  }
+
+  img.icon1{
+    width: 104px;
+    height: 104px;
+    margin-left: 108px;
+    margin-top: 37px;
+  }
+
+  .trabajo-remoto{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 13px;
+  }
+
+  img.icon2{
+    width: 104px;
+    height: 104px;
+    margin-left: 108px;
+    margin-top: 49px;
+  }
+
+  .repasando-programacion{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 13px;
+  }
+
+  img.icon3{
+    width: 104px;
+    height: 104px;
+    margin-left: 108px;
+    margin-top: 52px;
+  }
+
+  .bases-del-codigo{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 13px;
+
+  }
+
+  img.icon4{
+    width: 104px;
+    height: 104px;
+    margin-left: 108px;
+    margin-top: 64px;
+  }
+
+  .seguridad-informatica{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 13px;
+  }
+
+  .section2{
+    position: relative;
+   
+  }
+
+
+  .background2{
+    margin-top: 42px;
+    position: absolute;
+    width: 320px; height: 341px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skew(0deg,-5deg);
+  }
+
+
+  .ultimas-novedades{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  position: fixed;
+  text-align: center;
+  color: black;
+  }

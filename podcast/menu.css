@@ -1,0 +1,132 @@
+#menu-bar{
+  display: none;
+  }
+
+  header label{
+  float: right;
+  width: 18px; height: 12px;
+  margin: 16px 19px;
+  cursor: pointer;
+  }
+
+  .page-nav .x-icon{
+  display:none;
+  }
+
+  .page-nav input{
+  display: inline-block;
+  font-style: normal;
+  font-size: 1.2em;
+  position: absolute;
+  top: 16px;
+  right: 19px;
+  opacity: 0;
+  cursor: pointer;
+  }
+
+  .menu{
+  position: absolute;
+  width: 100%;
+  background: #0000EC;
+  height: 224px;
+  margin-top: -2px;
+  transition: all 0.5s;
+  transform: translateX(-100%);
+  display: block;
+  }
+
+  .menu a{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-top: 16px;
+  height: 24px;
+  padding: 16px;
+  font-weight: lighter;
+  }
+
+  .page-nav input:checked ~ .hamb-icon{
+  display:none;
+  }
+
+  .page-nav input:checked ~ .x-icon{
+  display: block;
+  padding-right: 20px;
+  cursor: pointer;
+  }
+
+  #hamburguer:checked ~ .menu {
+  transform: translateX(0%);
+  }
+
+  /*------------------------------------------------------- MEDIA QUERIES (1440PX) ----------------------------------------------------*/
+  
+  @media (min-width:1440px){
+  
+  .menu{
+  position: static;
+  width: auto;
+  height: auto;
+  transform: translateX(0%);
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  background: white;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-size: 16px;
+  text-decoration: none;
+  }
+
+  #hamburguer{
+  display: none;
+  }
+
+  .menu a:hover{
+  text-decoration: line-through;
+  color: #00F3BB;
+  }
+
+  .menu a{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-top: 16px;
+  height: 24px;
+  padding: 16px;
+  font-weight: normal;
+  }
+
+  #menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+  }
+
+  .menu{
+  position: static;
+  width: auto;
+  height: auto;
+  transform: translateX(0%);
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  background: white;
+  font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .menu a:hover{
+  text-decoration: line-through;
+  color: #00F3BB;
+  }
+
+  .menu a{
+  color: #060a24;
+  }
+
+  header label{
+  display: none;
+  }

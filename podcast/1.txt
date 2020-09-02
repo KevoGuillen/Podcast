@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Podcast</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/fontello.css">
+      <link rel="stylesheet" href="menu.css">
+      <script src="https://kit.fontawesome.com/5cdfdcee82.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <header>
+         <div class="container-header-mobile">
+            <img class="logo" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\logo.svg" alt="logo"> 
+            <label class="icon-menu" for="menu-bar"></label>
+            </nav>
+         </div>
+         <div class="cointainer-header-desktop">
+            <img class="logo" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\logo.svg" alt="logo">
+               <nav class="section-desktop">
+               <a href="">EPISODIOS</a>
+               <a href="">NOSOTROS</a>
+               <a href="">ENTREVISTAS</a>
+               <a href="">TOPICOS</a>
+               </nav>
+
+            </p>
+         </div>
+      </header>
+      <h1>Hello <span class="world">world <br></span> pale blue dot.</h1>
+      <p class="resumen">
+         Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 dias.
+      </p>
+      <p class="buttonConoceMas">CONOCÉ MÁS</p>
+      <div class="background">
+      <div class="inclinacion">
+         <h2>Episodios</h2>
+         <div>
+            <iframe class="first-chapter" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="resto-chapters" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="resto-chapters" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="resto-chapters" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <img class="phone" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\phone.png" alt="">
+            <section id="Info">
+               <h3>De dónde <br> venimos</h3>
+               <p class="text">Our posturings, our imagnied self-importance, the delusion that we have some privileged position in the universe are challenged by this point of pale light. <br> <br>
+                  Our planet is a lonely speak in the great involving cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+               </p>
+               <h3 class="invitados">Invitadas/os <br> estelares</h3>
+               <div class="img-invitados">
+                  <img class="grase" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\grace-hopper.png" alt="">
+                  <img class="resto-invitados" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\Katie-Bouman.png" alt="">
+                  <img class="resto-invitados" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\Margaret.png" alt="">
+                  <img class="resto-invitados" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\univac.png" alt="">
+                  <img class="resto-invitados" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\eniac.png" alt="">
+                  <img class="resto-invitados" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\susan-kare.png" alt="">
+               </div>
+               <div>
+                  <h3 class="temas">Algunos de <br>nuestros temas</h3>
+                  <div class="iconos-temas">
+                     <img class="icon1" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\icon1.svg" alt="">
+                     <div>
+                        <p class="trabajo-remoto" >Trabajo remoto</p>
+                     </div>
+                     <img class="icon2" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\icon2.svg" alt="">
+                     <div>
+                        <p class="repasando-programacion">Repasando la <br> programación</p>
+                     </div>
+                     <img class="icon3" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\icon3.svg" alt="">
+                     <p class="bases-del-codigo">Bases del código</p>
+                     <img class="icon4" src="C:\Users\kevin\Desktop\Acamica\podcast\imagenes\icon4.svg" alt="">
+                     <p class="seguridad-informatica">Seguridad informática</p>
+                  </div>
+               </div>
+               <section class="asymmetric">
+                  <h4>¿Quéres las últimas novedades?</h4>
+                  <p class="buttonEpisodios">ESCUCHA LOS EPISODIOS</p>
+               </section>
+               <footer>
+                  <div>
+                     <p class="Copyright">© 2019— Hello blue pale dot</p>
+                  </div>
+                  <div class="iconos-redes-sociales">
+                     <i class=" icono-spotify fab fa-spotify"></i><i class=" resto-icons fab fa-instagram"></i><i class=" resto-icons fab fa-twitter"></i><i class=" resto-icons fab fa-facebook"></i><i class=" resto-icons fab fa-telegram"></i> 
+                  </div>
+               </footer>
+         </div>
+      </div>
+      </section>
+   </body>
+</html>

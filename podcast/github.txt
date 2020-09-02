@@ -1,0 +1,9 @@
+pararme en carpeta : cd tab tab , nombre de carpeta
+
+git status para ver cambios
+
+git add . : agrega los cambios
+
+git commit : instancia los cambios a subir
+
+$ git push origin podcastproyect subir los cambios

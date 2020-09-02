@@ -1,0 +1,24 @@
+https://www.acamica.com/clases/10936//para-desarrollar-el-proyecto
+https://www.youtube.com/watch?v=nOjxVmN-obU
+
+
+box-wrapper : hover .
+espaciado entre texto = margin
+
+padding = separar lo de adentro de la caja 
+border = separar desde afuera de la caja
+border radius 
+position: relative = top left right botom
+position : absolute
+z-index : suporsicion de capas. 
+-------------------
+position : fixed
+position : sticky
+
+
+dropdown
+
+
+https://sensacionweb.com/como-crear-un-boton-con-html-y-css/
+
+word wrap
